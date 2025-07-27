@@ -39,13 +39,12 @@ Chat UI Snapshot	Chatbot Demo
 🎬 Watch video
 
 🧪 How to Run Locally
-bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/Agrictechventure68/cryptobuddy.git
 
 # Navigate into the directory
+
 cd cryptobuddy
 
 # (Optional) Create virtual environment
