@@ -1,67 +1,66 @@
 # 💸 CryptoBuddy — Your First AI-Powered Financial Sidekick! 🌟
 
-Welcome to **CryptoBuddy**, your smart assistant for navigating the world of cryptocurrency. Whether you're a curious beginner or a cautious investor, CryptoBuddy helps you make informed financial decisions using real-time data and AI-powered logic.
+![Promo Banner](A_promotional_digital_graphic_for_CryptoBuddy,_an_.png)
+
+CryptoBuddy is a smart, beginner-friendly financial AI assistant that provides instant advice on crypto trends, personal finance, and budgeting — with a future vision to scale into other domains like education and real estate.
 
 ---
 
-## 🚀 Features
+## 🔍 Features
 
-- 🤖 AI-Powered Chatbot for crypto Q&A
-- 📈 Real-time market data from mock dataset
-- 💰 Portfolio advice for risk-based decisions
-- 📊 Summary reports & analytics
-- 🎥 Demo video and screenshots included
-
----
-
-## 🧠 How It Works
-
-The logic is rule-based:
-- If a user asks about “Bitcoin”, it fetches and replies with the latest data.
-- If a user says “recommend an investment”, the chatbot analyzes mock data and returns low-risk or high-risk options.
-- Easily extendable to integrate with live APIs or LLMs.
+- 💬 Chat-based financial Q&A system
+- 📈 Basic crypto logic (rule-based AI)
+- 🔐 Future-ready for blockchain wallet & API integrations
+- 🌍 Designed for global users & local adaptation
 
 ---
 
-## 📂 Project Structure
+## 🚀 Live Deployment
+
+Soon to be hosted on: **Render**
+
+---
+
+## 🧠 Tech Stack
+
+- **Python** (FastAPI)
+- **HTML/CSS/JS** (Frontend)
+- **Render** (Hosting)
+- **GitHub** (Version control)
+- *(Promo image made with AI)*
+
+---
+
+## 🛠️ Installation (Local)
 
 ```bash
-CryptoBuddy/
-│
-├── chatbot/                 # Core chatbot logic
-├── screenshot/              # Media demos (PNG, MP4, etc.)
-├── chatbot.py              # Entry script
-├── crypto_data.py          # Sample dataset logic
-├── requirements.txt        # Dependencies
-├── README.md               # This file
-🖼️ Screenshots & Demo
-Chat UI Snapshot	Chatbot Demo
-🎬 Watch video
-
-🧪 How to Run Locally
-
-# Clone the repository
 git clone https://github.com/Agrictechventure68/cryptobuddy.git
-
-# Navigate into the directory
-
 cd cryptobuddy
-
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
 pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 10000
+📂 Project Structure
 
-# Run the chatbot
-python chatbot.py
-📜 License
-MIT License. Feel free to fork, contribute, and build upon this project.
+cryptobuddy/
+│
+├── main.py               # FastAPI app
+├── requirements.txt      # Python dependencies
+├── index.html            # Main UI
+├── style.css             # Styling
+├── script.js             # Frontend logic
+├── A_promotional_digital_graphic_for_CryptoBuddy,_an_.png  # Promo image
+└── README.md             # Project documentation
+🔧 Environment (Render)
+Build Command: pip install -r requirements.txt
 
-📬 Contact
-Built by AgricTechVenture68
-GitHub: @Agrictechventure68
+Start Command: uvicorn main:app --host 0.0.0.0 --port 10000
 
-🌱 Built with love for innovation and crypto learning.
-. 
+Root Directory: (leave blank unless it's inside a subfolder)
+
+📈 Future Plans
+EduBuddy, RealEstateBuddy, HealthBuddy, and more
+
+Connect to Ethereum wallets (ERC-4337)
+
+AI Agents for tailored financial insights
+
+✨ Created by Bright Doro @AgricTechVenture
